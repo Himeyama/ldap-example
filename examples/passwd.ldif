@@ -1,0 +1,29 @@
+dn: uid=user,ou=People,dc=hikari-dev,dc=com
+uid: user
+cn: 山田 太郎
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+userPassword: {SSHA}VoBRXX9Dj06MRXBJlYi5WLmjHMzJgj6N
+loginShell: /bin/bash
+uidNumber: 1100
+gidNumber: 100
+homeDirectory: /home/user
+
+dn: uid=piyo,ou=People,dc=hikari-dev,dc=com
+uid: piyo
+cn: 山田 ピヨ子
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+userPassword: {SSHA}VoBRXX9Dj06MRXBJlYi5WLmjHMzJgj6N
+loginShell: /bin/bash
+uidNumber: 1101
+gidNumber: 100
+homeDirectory: /home/piyo
+
+dn: cn=hikari,ou=Group,dc=hikari-dev,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: hikari
+gidNumber: 100

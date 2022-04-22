@@ -1,0 +1,13 @@
+
+
+dn: ou=People,dc=hikari-dev,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=hikari-dev,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Group
+
+
