@@ -1,0 +1,6 @@
+dn: cn=sudo,ou=Group,dc=hikari-dev,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: sudo
+gidNumber: 27
+memberUid: piyo

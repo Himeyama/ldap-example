@@ -17,3 +17,4 @@ sleep 3
 ldapmodify -D cn=admin,cn=config -w $LDAP_PASSWD -f examples/access.ldif
 ldapmodify -a -c -D $BINDDN -w $LDAP_PASSWD -f examples/base.ldif
 ldapmodify -a -c -D $BINDDN -w $LDAP_PASSWD -f examples/passwd.ldif
+ldapmodify -a -c -D $BINDDN -w $LDAP_PASSWD -f examples/group.ldif

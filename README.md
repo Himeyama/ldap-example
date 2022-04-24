@@ -32,3 +32,14 @@ example/access.ldif で指定している olcAccess の設定がセキュリテ�
 ./create-container.sh
 ```
 
+## クライアント設定 (Ubuntu)
+### 必要なパッケージ
+- libnss-ldapd
+- ldap-auth-config
+
+
+### 設定ファイル
+- /etc/ldap.conf
+- /etc/ldap.secret
+- /etc/sudo-ldap.conf
+

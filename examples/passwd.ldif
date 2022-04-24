@@ -21,9 +21,3 @@ loginShell: /bin/bash
 uidNumber: 1101
 gidNumber: 100
 homeDirectory: /home/piyo
-
-dn: cn=hikari,ou=Group,dc=hikari-dev,dc=com
-objectClass: posixGroup
-objectClass: top
-cn: hikari
-gidNumber: 100
